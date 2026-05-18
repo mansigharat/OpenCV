@@ -14,7 +14,7 @@ else:
 
     cv2.rectangle(image,pt1,pt2,color,thickness)
 
-    cv2.imshow("Reactangle",image)
+    cv2.imshow("Rectangle",image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
