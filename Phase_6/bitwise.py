@@ -13,8 +13,10 @@ bitwise_not = cv2.bitwise_not(img1)
 
 cv2.imshow("Circle",img1)
 cv2.imshow("Rectanlge",img2)
+
 cv2.imshow("AND",bitwise_and)
 cv2.imshow("OR",bitwise_or)
 cv2.imshow("not",bitwise_not)
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
